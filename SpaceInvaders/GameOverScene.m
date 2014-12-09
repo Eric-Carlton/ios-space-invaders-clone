@@ -34,7 +34,7 @@
     [self createHighScoreLbl];
     [self createTapToPlayAgainLbl];
     
-    [self playGameOverSound];
+    if(_soundOn) [self playGameOverSound];
 }
 
 //Touch Actions
